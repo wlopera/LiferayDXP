@@ -1,0 +1,6 @@
+Bundle-SymbolicName: pais.web
+Bundle-Version: 1.0.0
+
+Import-Package: com.example.api,\
+                com.example.model,\
+                *
