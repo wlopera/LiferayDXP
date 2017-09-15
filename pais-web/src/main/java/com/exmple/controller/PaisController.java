@@ -3,7 +3,9 @@ package com.exmple.controller;
 import com.example.api.PaisApi;
 import com.example.model.GreetingsWrapper;
 
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.Set;
 
 import javax.ws.rs.ApplicationPath;
@@ -20,8 +22,8 @@ import org.osgi.service.component.annotations.Reference;
 import jodd.json.JsonSerializer;
 
 @Component(immediate = true, service = Application.class)
-@ApplicationPath("/test")
-public class ExampleRestController extends Application {
+@ApplicationPath("/pais")
+public class PaisController extends Application {
 
     // ------------------------
     // Rest Application Config
@@ -39,24 +41,33 @@ public class ExampleRestController extends Application {
     /*
      * Private attributes
      */
-    private PaisApi api;
+    private PaisApi api; 
 
     // ------------------------
     // Public Methods
     // ------------------------
 
     @GET
-    @Path("hello/{name}")
+    @Path("getPaises/")
     @Produces(MediaType.APPLICATION_JSON)
-    public String sayHello(@PathParam("name") String name) {
+    public String getPaises() {
 
-        System.out.println("##=> ExampleRestController request: "+ name);
+        System.out.println("##=> PaisController request: ");
         
-        GreetingsWrapper g = api.sayHello(name);
-        
-        System.out.println("##=> ExampleRestController - response: "+ g.getGreeting());
-        
-        return new JsonSerializer().serialize(g);
+        List<String> data = new ArrayList<String>();
+        data.add("Argentina");
+        data.add("Brasil");
+        data.add("Colombia");
+        data.add("Panama");
+        data.add("Venezuela");
+        data.add("USA");
+        data.add("Italia");
+        data.add("Francia");
+        data.add("China");
+        data.add("Japon");
+ 
+        System.out.println(new JsonSerializer().serialize(data));
+        return new JsonSerializer().serialize(data);
     }
 
     // ------------------------

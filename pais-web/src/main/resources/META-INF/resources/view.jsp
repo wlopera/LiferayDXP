@@ -3,18 +3,17 @@
 <p>
 	<b><liferay-ui:message key="test_web_TestWebmvcportlet.caption"/></b>
 
-	<div class='row' ng-controller='TestController as ctrl'>
+	<div class='row' ng-controller='PaisController as ctrl'>
 
 		<div class='col-sm-6'>
 
-			<input type="text" name="" ng-model="ctrl.name">
-
+				{{ctrl.paises | json}}
 		</div>
 
 		<div class='col-sm-6'>
 
-			<button type='button' ng-click='ctrl.sayHello()'>
-				Say Hello!
+			<button type='button' ng-click='ctrl.getPaises()'>
+				Consultar Paises!
 			</button>
 
 		</div>
