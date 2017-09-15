@@ -1,4 +1,4 @@
-package com.exmple.controller;
+package com.example.controller;
 
 import com.example.api.PaisApi;
 import com.example.model.GreetingsWrapper;
