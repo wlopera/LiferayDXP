@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<license>
+	<account-name>Liferay Trial</account-name>
+	<owner>Carlos Fong</owner>
+	<description>1 year developer key</description>
+	<product-name>Digital Enterprise Development</product-name>
+	<product-version>7.0</product-version>
+	<license-name>Digital Enterprise Development</license-name>
+	<license-type>developer</license-type>
+	<license-version>5</license-version>
+	<start-date>Sunday, December 18, 2016 4:00:00 PM GMT</start-date>
+	<expiration-date>Monday, December 18, 2017 4:00:00 PM GMT</expiration-date>
+	<max-http-sessions>5</max-http-sessions>
+	<key>d0d20389dcfbf44f941daf9073c4cf45f354c08291a533de52a3d8355b1c3a1d08e4623d760ff62fe24af2779c7d6d08c16c1c51d5533573482370753e392fcf426e3a06fe6ac15e35052b8d5fa07f0361c43a91376f760e9839c27b542329d1e6d946190c91bbb5b3b2ff2de7afa160c20a8efbebc59014ec7a17062b444ec68613b5f4</key>
+</license>
