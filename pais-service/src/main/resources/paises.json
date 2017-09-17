@@ -1,0 +1,1133 @@
+{
+  "paises":
+  [
+    {
+      "nombre":"Afganistán",
+      "capital":"Kabul",
+      "moneda":"Afghaní",
+      "idioma":"Pashtu y Darit"
+    },
+    {
+      "nombre":"Albania",
+      "capital":"Tirana",
+      "moneda":"Nuevo Lek",
+      "idioma":"Albanés"
+    },
+    {
+      "nombre":"Alemania",
+      "capital":"Berlin",
+      "moneda":"Marco A.",
+      "idioma":"Alemán"
+    },
+    {
+      "nombre":"Andorra",
+      "capital":"Andorra la Vella",
+      "moneda":"Peseta y Franco",
+      "idioma":"Catalán"
+    },
+    {
+      "nombre":"Angola",
+      "capital":"Luanda",
+      "moneda":"Nuevo kawanza",
+      "idioma":"Portugues"
+    },
+    {
+      "nombre":"A. Saudita",
+      "capital":"Jiddah",
+      "moneda":"Rival",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Argelia",
+      "capital":"Argel",
+      "moneda":"Dinar A.",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Argentina",
+      "capital":"Buenos Aires",
+      "moneda":"Peso",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Armenia",
+      "capital":"Yerewán",
+      "moneda":"Dólar",
+      "idioma":"Armenio"
+    },
+    {
+      "nombre":"Australia",
+      "capital":"Camberra",
+      "moneda":"Dólar A.",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Austria",
+      "capital":"Viena",
+      "moneda":"Schilling",
+      "idioma":"Alemán"
+    },
+    {
+      "nombre":"Azerbaiyan",
+      "capital":"Bakú",
+      "moneda":"Manat",
+      "idioma":"Azerbaiyano"
+    },
+    {
+      "nombre":"Bahamas",
+      "capital":"Nassau",
+      "moneda":"Dólar Bahameño",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Baherin",
+      "capital":"Manama",
+      "moneda":"Dinar",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Bangladesh",
+      "capital":"Dacca",
+      "moneda":"Taka",
+      "idioma":"Bengalí"
+    },
+    {
+      "nombre":"Bárbados",
+      "capital":"Ridgetow",
+      "moneda":"Dólar de Bar.",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Belarús",
+      "capital":"Minsk",
+      "moneda":"Rubel",
+      "idioma":"Belaruso"
+    },
+    {
+      "nombre":"Bélgica",
+      "capital":"Bruselas",
+      "moneda":"Franco-Belga",
+      "idioma":"Nerlandéz"
+    },
+    {
+      "nombre":"Belice",
+      "capital":"Belmopan",
+      "moneda":"Dólar Bélgica",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Benin",
+      "capital":"Porto Novo",
+      "moneda":"Franco",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Bhután",
+      "capital":"Timbu",
+      "moneda":"Ngultrum",
+      "idioma":"Dzongkha"
+    },
+    {
+      "nombre":"Bolivia",
+      "capital":"La Paz",
+      "moneda":"Boliviano",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Bosnia H.",
+      "capital":"Sarajevo",
+      "moneda":"Dinar B.H.",
+      "idioma":"Servo-Croata"
+    },
+    {
+      "nombre":"Brasil",
+      "capital":"Brasilia",
+      "moneda":"Cruzeiro Real",
+      "idioma":"Portugues"
+    },
+    {
+      "nombre":"Brunei",
+      "capital":"Bandar",
+      "moneda":"Dólar",
+      "idioma":"Malayo"
+    },
+    {
+      "nombre":"Bulgaria",
+      "capital":"Sofia",
+      "moneda":"Lev",
+      "idioma":"Búlgaro"
+    },
+    {
+      "nombre":"Burkina Faso",
+      "capital":"Uagadugu",
+      "moneda":"Franco",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Burundi",
+      "capital":"Buyunbura",
+      "moneda":"Francos",
+      "idioma":"Kirundi"
+    },
+    {
+      "nombre":"Cabo Verde",
+      "capital":"Prai",
+      "moneda":"Escudo C.V.",
+      "idioma":"Portugués"
+    },
+    {
+      "nombre":"Camboya",
+      "capital":"Pnom Pen",
+      "moneda":"Nuevo Riel",
+      "idioma":"Khmar"
+    },
+    {
+      "nombre":"Camerún",
+      "capital":"Yaundee",
+      "moneda":"Franco (C.F.A.)",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Canadá",
+      "capital":"Otawa",
+      "moneda":"Dólar",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Colombia",
+      "capital":"Bogota",
+      "moneda":"Peso",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Comoras",
+      "capital":"Mnroni",
+      "moneda":"Franco",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Congo",
+      "capital":"Brazzaville",
+      "moneda":"Franco(C.F.A.)",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Corea del Norte",
+      "capital":"Pyong Yang",
+      "moneda":"Won Corea Norte",
+      "idioma":"Coreano"
+    },
+    {
+      "nombre":"Corea del Sur",
+      "capital":"Séul",
+      "moneda":"Won Corea Norte",
+      "idioma":"Coreano"
+    },
+    {
+      "nombre":"Costa Rica",
+      "capital":"San José",
+      "moneda":"Colón",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Cote Divoire",
+      "capital":"Yamoussoukro",
+      "moneda":"Franco",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Croacia",
+      "capital":"Zagred",
+      "moneda":"Kuna",
+      "idioma":"Croata"
+    },
+    {
+      "nombre":"Cuba",
+      "capital":"La Habana",
+      "moneda":"Peso Cubano",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Chad",
+      "capital":"N´ Djamena",
+      "moneda":"Franco C.F.A.",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Chile",
+      "capital":"Santiago",
+      "moneda":"Peso",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"China R. Pop.",
+      "capital":"Pekin",
+      "moneda":"Yuan",
+      "idioma":"Chino"
+    },
+    {
+      "nombre":"China Taiwan",
+      "capital":"Taipei",
+      "moneda":"Nuevo Dólar T.",
+      "idioma":"Chino"
+    },
+    {
+      "nombre":"Chipre",
+      "capital":"Nicosia",
+      "moneda":"Libra Ch.",
+      "idioma":"Griego Turco"
+    },
+    {
+      "nombre":"Dinamarca",
+      "capital":"Copenhague",
+      "moneda":"Corona",
+      "idioma":"Danes"
+    },
+    {
+      "nombre":"Djibouti",
+      "capital":"Djibouti",
+      "moneda":"Franco",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Dominica",
+      "capital":"Rousseau",
+      "moneda":"Dólar",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Ecuador",
+      "capital":"Quito",
+      "moneda":"Sucre",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Egipto",
+      "capital":"El Cairo",
+      "moneda":"Libra",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"E. Arabes U.",
+      "capital":"Abu Dhabi",
+      "moneda":"Diraham",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Eslovaquia",
+      "capital":"Batrislaba",
+      "moneda":"Corona",
+      "idioma":"Eslovaco"
+    },
+    {
+      "nombre":"Eslovenia",
+      "capital":"Liubliana",
+      "moneda":"Dólar",
+      "idioma":"Esloveno"
+    },
+    {
+      "nombre":"España",
+      "capital":"Madrid",
+      "moneda":"Euro",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"EE.UU",
+      "capital":"Washingtón",
+      "moneda":"Dólar",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Estonia",
+      "capital":"Tallinn",
+      "moneda":"Corona",
+      "idioma":"Estonio"
+    },
+    {
+      "nombre":"Etiopia",
+      "capital":"Addisabeba",
+      "moneda":"Birr",
+      "idioma":"Amarico"
+    },
+    {
+      "nombre":"Filipinas",
+      "capital":"Manila",
+      "moneda":"Peso F.",
+      "idioma":"Filipino"
+    },
+    {
+      "nombre":"Finlandia",
+      "capital":"Heinsinki",
+      "moneda":"Marco F.",
+      "idioma":"Finés"
+    },
+    {
+      "nombre":"Francia",
+      "capital":"París",
+      "moneda":"Franco",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Gabon",
+      "capital":"Libreville",
+      "moneda":"Franco",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Gambia",
+      "capital":"Banjul",
+      "moneda":"Dalasi",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Georgia",
+      "capital":"Tebelice",
+      "moneda":"Kupón",
+      "idioma":"Gerogiano"
+    },
+    {
+      "nombre":"Ghana",
+      "capital":"Acca",
+      "moneda":"Nuevo Cedi",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Granada",
+      "capital":"Georges",
+      "moneda":"Dólar",
+      "idioma":"Ingres"
+    },
+    {
+      "nombre":"Grecia",
+      "capital":"Atenas",
+      "moneda":"Dracma",
+      "idioma":"Griego"
+    },
+    {
+      "nombre":"Guatemala",
+      "capital":"Guatemala",
+      "moneda":"Quetzal",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Guinea",
+      "capital":"Conakry",
+      "moneda":"Franco G.",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Guinea Bissau",
+      "capital":"Bissau",
+      "moneda":"Peso",
+      "idioma":"Portugués"
+    },
+    {
+      "nombre":"Guinea Ecuat. l",
+      "capital":"Malabo",
+      "moneda":"Franco C.F.A.",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Guyana",
+      "capital":"Georgeetown",
+      "moneda":"Dólar G.",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Haiti",
+      "capital":"Puerto principe",
+      "moneda":"Gourde",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Honduras",
+      "capital":"Tegusigalpa",
+      "moneda":"Lempira",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Hungria",
+      "capital":"Budapest",
+      "moneda":"Florín",
+      "idioma":"Hungaro"
+    },
+    {
+      "nombre":"India",
+      "capital":"Nueva Delhi",
+      "moneda":"Rupia",
+      "idioma":"Indu"
+    },
+    {
+      "nombre":"Indonesia",
+      "capital":"Yakarta",
+      "moneda":"Rupia Indonesio",
+      "idioma":"Indonesio"
+    },
+    {
+      "nombre":"Irak",
+      "capital":"Bagdad",
+      "moneda":"Dinar Iraqui",
+      "idioma":"Iraqui"
+    },
+    {
+      "nombre":"Iran",
+      "capital":"Teherán",
+      "moneda":"Rial",
+      "idioma":"Farci"
+    },
+    {
+      "nombre":"Irlanda",
+      "capital":"Dublin",
+      "moneda":"Libra J.",
+      "idioma":"Irlandés"
+    },
+    {
+      "nombre":"Islandia",
+      "capital":"Reykiavick",
+      "moneda":"Corona",
+      "idioma":"Islandés"
+    },
+    {
+      "nombre":"Islas Marshal",
+      "capital":"Majuro",
+      "moneda":"Dólar",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Islas Salomón",
+      "capital":"Honiara",
+      "moneda":"Dólar",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Islas Palau",
+      "capital":"Koror",
+      "moneda":"Dólar U.S.A.",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Israel",
+      "capital":"Jerusalén",
+      "moneda":"Nuevo Siclo",
+      "idioma":"Hebreo"
+    },
+    {
+      "nombre":"Italia",
+      "capital":"Roma",
+      "moneda":"Lira",
+      "idioma":"Italiano"
+    },
+    {
+      "nombre":"Jalibia",
+      "capital":"Tripoli",
+      "moneda":"Dinar Libio",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Jamaica",
+      "capital":"King",
+      "moneda":"Dólar Jamaica",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Japón",
+      "capital":"Tokio",
+      "moneda":"Yen",
+      "idioma":"Japones"
+    },
+    {
+      "nombre":"Jordiania",
+      "capital":"Amman",
+      "moneda":"Dinar Jordano",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Kenia",
+      "capital":"Nairobi",
+      "moneda":"Chelin Kenianc",
+      "idioma":"Kiswahili"
+    },
+    {
+      "nombre":"Kirguistan",
+      "capital":"Dieshkek",
+      "moneda":"Song",
+      "idioma":"Kirguis"
+    },
+    {
+      "nombre":"Kiribati",
+      "capital":"Bairiki",
+      "moneda":"Dólar",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Kuwait",
+      "capital":"Kuwait",
+      "moneda":"Dinar Kuwait",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Lao",
+      "capital":"Vien Tiane",
+      "moneda":"Nuevo Kip",
+      "idioma":"Lao"
+    },
+    {
+      "nombre":"Lesotho",
+      "capital":"Macerú",
+      "moneda":"Sesoto",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Letonia",
+      "capital":"Riga",
+      "moneda":"Lat",
+      "idioma":"Letón"
+    },
+    {
+      "nombre":"Líbano",
+      "capital":"Beirut",
+      "moneda":"Libra Libanesa",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Liberia",
+      "capital":"Monrovia",
+      "moneda":"Dólar L.",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Liechtenstein",
+      "capital":"Vaduz",
+      "moneda":"Franco S.",
+      "idioma":"Alemán"
+    },
+    {
+      "nombre":"Lituania",
+      "capital":"Vilma",
+      "moneda":"Litas",
+      "idioma":"Lituano"
+    },
+    {
+      "nombre":"Luxemburgo",
+      "capital":"Luxemburgo",
+      "moneda":"Franco L",
+      "idioma":"Letzeburgués"
+    },
+    {
+      "nombre":"Macedonia",
+      "capital":"Skopje",
+      "moneda":"Dinar M.",
+      "idioma":"Macedonio"
+    },
+    {
+      "nombre":"Madagascar",
+      "capital":"Antananarivo",
+      "moneda":"Franco Malgache",
+      "idioma":"Malgaché"
+    },
+    {
+      "nombre":"Malasia",
+      "capital":"Kuala Lumpur",
+      "moneda":"Ringgit",
+      "idioma":"Malayo"
+    },
+    {
+      "nombre":"Malawi",
+      "capital":"Lilongwe",
+      "moneda":"Kwacha",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Malvidas",
+      "capital":"Male",
+      "moneda":"Rufyaa",
+      "idioma":"Maldivo"
+    },
+    {
+      "nombre":"Malí",
+      "capital":"Bamako",
+      "moneda":"Franco M.",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Malta",
+      "capital":"La Valetta",
+      "moneda":"Lira M.",
+      "idioma":"Maltés"
+    },
+    {
+      "nombre":"Marruecos",
+      "capital":"Rabat",
+      "moneda":"Dirham",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Mauritania",
+      "capital":"Nova Kchott",
+      "moneda":"Ouguiya",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Mauricio",
+      "capital":"Port Louis",
+      "moneda":"Rupia",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"México",
+      "capital":"México D. F.",
+      "moneda":"Nuevo Peso",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Micronesia",
+      "capital":"Palekir",
+      "moneda":"Dólar",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Moldava",
+      "capital":"Kishinev",
+      "moneda":"Leu Moldovo",
+      "idioma":"Rumano"
+    },
+    {
+      "nombre":"Monaco",
+      "capital":"Monaco-Ville",
+      "moneda":"Franco Francés",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Mongolia",
+      "capital":"Ulan Bator",
+      "moneda":"Tughrik",
+      "idioma":"Mongol"
+    },
+    {
+      "nombre":"Mozambique",
+      "capital":"Maputo",
+      "moneda":"Metical",
+      "idioma":"Portugués"
+    },
+    {
+      "nombre":"Myanmar(Bir)",
+      "capital":"Yangon",
+      "moneda":"Kyat",
+      "idioma":"Birmano"
+    },
+    {
+      "nombre":"Namibia",
+      "capital":"Windhoek",
+      "moneda":"Dólar",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Nauro",
+      "capital":"Yaren",
+      "moneda":"Dólar",
+      "idioma":"Naurano"
+    },
+    {
+      "nombre":"Nepal",
+      "capital":"Katmandú",
+      "moneda":"Rupia N.",
+      "idioma":"Nepalés"
+    },
+    {
+      "nombre":"Nicaragua",
+      "capital":"Managua",
+      "moneda":"Córdoba",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Níger",
+      "capital":"Niamey",
+      "moneda":"Franco",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Nigeria",
+      "capital":"Abuja",
+      "moneda":"Naira",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Nuruega",
+      "capital":"Oslo",
+      "moneda":"Corona N.",
+      "idioma":"Noruego"
+    },
+    {
+      "nombre":"Nueva Zelandia",
+      "capital":"Wellington",
+      "moneda":"Dólar",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Omán",
+      "capital":"Mascate",
+      "moneda":"Rial Omani",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Paises Bajos",
+      "capital":"Amsterdam",
+      "moneda":"Florin (Guilder)",
+      "idioma":"Holandes"
+    },
+    {
+      "nombre":"Pakistán",
+      "capital":"Islamabad",
+      "moneda":"Rupia",
+      "idioma":"Urdú"
+    },
+    {
+      "nombre":"Panamá",
+      "capital":"Panamá",
+      "moneda":"Balbóa",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Papúa N.G.",
+      "capital":"Port Moresvy",
+      "moneda":"Kina",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Paraguay",
+      "capital":"Asunción",
+      "moneda":"Guaraní",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Perú",
+      "capital":"Lima",
+      "moneda":"Nuevo Saol",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Polonia",
+      "capital":"Varsovia",
+      "moneda":"Zloty",
+      "idioma":"Polaco"
+    },
+    {
+      "nombre":"Portugal",
+      "capital":"Lisboa",
+      "moneda":"Escudo",
+      "idioma":"Portu"
+    },
+    {
+      "nombre":"Puerto Rico",
+      "capital":"San Juan",
+      "moneda":"Dólar U.S.A.",
+      "idioma":"Inglés-Español"
+    },
+    {
+      "nombre":"Reino Unido",
+      "capital":"Londres",
+      "moneda":"Libra",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"R.Centro Africano",
+      "capital":"Bangui",
+      "moneda":"Franco C.F.A.",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Republica Checa",
+      "capital":"Praga",
+      "moneda":"Corona",
+      "idioma":"Checo"
+    },
+    {
+      "nombre":"Republica Dominicana",
+      "capital":"Santo Domingo",
+      "moneda":"Peso D.",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Rumania",
+      "capital":"Bucarest",
+      "moneda":"Lev",
+      "idioma":"Rumano"
+    },
+    {
+      "nombre":"Rusia",
+      "capital":"Moscú",
+      "moneda":"Rublo",
+      "idioma":"Rusó"
+    },
+    {
+      "nombre":"Qatar",
+      "capital":"Doha",
+      "moneda":"Rival Q.",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Ruanda",
+      "capital":"Kigali",
+      "moneda":"Franco R.",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Salvador, El.",
+      "capital":"San Salvador",
+      "moneda":"Colón",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Samoa Occ.",
+      "capital":"Apia",
+      "moneda":"Tala",
+      "idioma":"Samoano"
+    },
+    {
+      "nombre":"San Cristobal y N.",
+      "capital":"Basseterre",
+      "moneda":"Dólar",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"San Marino",
+      "capital":"San Marino",
+      "moneda":"Lira Italiana",
+      "idioma":"Italiano"
+    },
+    {
+      "nombre":"San Vicente y G.",
+      "capital":"Kingstwn",
+      "moneda":"Dólar",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Santa Lucia",
+      "capital":"Castries",
+      "moneda":"Dólar",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Santo Tome",
+      "capital":"Santo Tomé",
+      "moneda":"Dogra",
+      "idioma":"Portugués"
+    },
+    {
+      "nombre":"Senegal",
+      "capital":"Dakar",
+      "moneda":"Franco C.F.A.",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Seychelles",
+      "capital":"Victoria",
+      "moneda":"Rupia S.",
+      "idioma":"Criollo"
+    },
+    {
+      "nombre":"Sierra Lorena",
+      "capital":"Freetown",
+      "moneda":"Leone",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Singapur",
+      "capital":"Singapur",
+      "moneda":"Dólar S.",
+      "idioma":"Malayo"
+    },
+    {
+      "nombre":"Siria",
+      "capital":"Damasco",
+      "moneda":"Libra S.",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Somalia",
+      "capital":"Mogadiscio",
+      "moneda":"Chelin",
+      "idioma":"Somalí"
+    },
+    {
+      "nombre":"Sri. Lanka",
+      "capital":"Colombo",
+      "moneda":"Rupia",
+      "idioma":"Singalés"
+    },
+    {
+      "nombre":"Sudafrica",
+      "capital":"Bloem Fontein",
+      "moneda":"Rand",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Sudán",
+      "capital":"Jartúm",
+      "moneda":"Libra Sudán",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Suecia",
+      "capital":"Estocolmo",
+      "moneda":"Corona",
+      "idioma":"Sueco"
+    },
+    {
+      "nombre":"Suiza",
+      "capital":"Berna",
+      "moneda":"Franco S.",
+      "idioma":"Alemán"
+    },
+    {
+      "nombre":"Surinam",
+      "capital":"Paramaribó",
+      "moneda":"Guilder S.",
+      "idioma":"Hlandes"
+    },
+    {
+      "nombre":"Swazilandia",
+      "capital":"Mbabane",
+      "moneda":"Lilan Gueni",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Tailandia",
+      "capital":"Bangkok",
+      "moneda":"Bath",
+      "idioma":"Tai"
+    },
+    {
+      "nombre":"Tanzania",
+      "capital":"Dodona-Dares",
+      "moneda":"Chelín T.",
+      "idioma":"Swahile"
+    },
+    {
+      "nombre":"Tayikistan",
+      "capital":"Dushambe",
+      "moneda":"Rublo",
+      "idioma":"Tayikistani"
+    },
+    {
+      "nombre":"Tgo",
+      "capital":"Lomé",
+      "moneda":"Franco C.F.A.",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Tonga",
+      "capital":"Nuku-Alofa",
+      "moneda":"Pa´Anga",
+      "idioma":"Tongano"
+    },
+    {
+      "nombre":"Trinidad y T.",
+      "capital":"Puerto España",
+      "moneda":"Dólar T.",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Túnez",
+      "capital":"Túnez",
+      "moneda":"Dinar T.",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Turquía",
+      "capital":"Ankara",
+      "moneda":"Lira Turquia",
+      "idioma":"Turco"
+    },
+    {
+      "nombre":"Turkmenistan",
+      "capital":"Ashkhabad",
+      "moneda":"Manat",
+      "idioma":"Turcomano"
+    },
+    {
+      "nombre":"Tubalú",
+      "capital":"Funga fale",
+      "moneda":"Dólar",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Ucrania",
+      "capital":"Kiev",
+      "moneda":"Karbovanets",
+      "idioma":"Ucraniano"
+    },
+    {
+      "nombre":"Uganda",
+      "capital":"Kampala",
+      "moneda":"Chalín Ugandés",
+      "idioma":"Ingles"
+    },
+    {
+      "nombre":"Uruguay",
+      "capital":"Montevideo",
+      "moneda":"Peso Uruguayo",
+      "idioma":"Español"
+    },
+    {
+      "nombre":"Uzbekistan",
+      "capital":"Thasken",
+      "moneda":"Sum",
+      "idioma":"Uzbeco"
+    },
+    {
+      "nombre":"Vanuato",
+      "capital":"Puerto Villa",
+      "moneda":"Batú",
+      "idioma":"Bislama"
+    },
+    {
+      "nombre":"Vati",
+      "capital":"C. Vaticano",
+      "moneda":"Lira Italiana",
+      "idioma":"Italiano"
+    },
+    {
+      "nombre":"Venezuela",
+      "capital":"Caracas",
+      "moneda":"Bolívar",
+      "idioma":"Venezuela"
+    },
+    {
+      "nombre":"Vietnam",
+      "capital":"Hanoi",
+      "moneda":"Dong",
+      "idioma":"Vietnamita"
+    },
+    {
+      "nombre":"Yemen",
+      "capital":"Sanala",
+      "moneda":"Riyal Y.",
+      "idioma":"Arabe"
+    },
+    {
+      "nombre":"Yugoslavia",
+      "capital":"Belgrado",
+      "moneda":"Nuevo Dinar",
+      "idioma":"Servo-Croata"
+    },
+    {
+      "nombre":"Zare",
+      "capital":"Kinshasa",
+      "moneda":"Zaire",
+      "idioma":"Francés"
+    },
+    {
+      "nombre":"Zambia",
+      "capital":"Lusaka",
+      "moneda":"Kwacha",
+      "idioma":"Inglés"
+    },
+    {
+      "nombre":"Zimbowe",
+      "capital":"Harare",
+      "moneda":"Dólar Zimbawe",
+      "idioma":"Inglés"
+    }
+  ]
+}

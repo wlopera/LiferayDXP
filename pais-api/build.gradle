@@ -1,4 +1,4 @@
-group = "com.bgeneral.pais"
+group = "com.pais"
 
 buildscript {
 	dependencies {

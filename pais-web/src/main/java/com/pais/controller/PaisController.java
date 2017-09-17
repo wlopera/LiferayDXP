@@ -1,9 +1,8 @@
-package com.example.controller;
+package com.pais.controller;
 
-import com.example.api.PaisApi;
-import com.example.model.GreetingsWrapper;
+import com.pais.api.PaisApi;
+import com.pais.model.Pais;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Set;
@@ -11,7 +10,6 @@ import java.util.Set;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Application;
 import javax.ws.rs.core.MediaType;
@@ -41,7 +39,7 @@ public class PaisController extends Application {
     /*
      * Private attributes
      */
-    private PaisApi api; 
+    private PaisApi paisApi; 
 
     // ------------------------
     // Public Methods
@@ -51,23 +49,8 @@ public class PaisController extends Application {
     @Path("getPaises/")
     @Produces(MediaType.APPLICATION_JSON)
     public String getPaises() {
-
-        System.out.println("##=> PaisController request: ");
-        
-        List<String> data = new ArrayList<String>();
-        data.add("Argentina");
-        data.add("Brasil");
-        data.add("Colombia");
-        data.add("Panama");
-        data.add("Venezuela");
-        data.add("USA");
-        data.add("Italia");
-        data.add("Francia");
-        data.add("China");
-        data.add("Japon");
- 
-        System.out.println(new JsonSerializer().serialize(data));
-        return new JsonSerializer().serialize(data);
+    	List<Pais> paises = paisApi.getPaises();
+        return new JsonSerializer().serialize(paises);
     }
 
     // ------------------------
@@ -75,8 +58,8 @@ public class PaisController extends Application {
     // ------------------------
 
     @Reference
-    public void setApi(PaisApi api) {
-        this.api = api;
+    public void setPaisApi(PaisApi paisApi) {
+        this.paisApi = paisApi;
     }
 
 }

@@ -20,7 +20,7 @@ dependencies {
     compileOnly "javax.ws.rs:javax.ws.rs-api:$jaxWsRs"
     compile "org.jodd:jodd-json:$json"
     
-    compileOnly group: "com.bgeneral.pais", name: "pais.api", version: "1.0.0"
+    compileOnly group: "com.pais", name: "com.pais.api", version: "1.0.0"
 	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel", version: "2.0.0"
 	compileOnly group: "com.liferay.portal", name: "com.liferay.util.taglib", version: "2.0.0"
 	compileOnly group: "javax.portlet", name: "portlet-api", version: "2.0"
