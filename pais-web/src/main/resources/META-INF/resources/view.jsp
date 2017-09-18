@@ -8,8 +8,8 @@
 	</div>
 		
 	<div class="container">
-	  <p>LISTA DE PAISES
-		  <button type="button" class="btn btn-info btn-lg" ng-click="ctrl.getPaises()">
+	  <p style="padding-left: 1cm">
+		  <button type="button" class="btn btn-success btn-small" ng-click="ctrl.getPaises()">
 	    	<span class="glyphicon glyphicon-search"></span> Países 
 	    </button>
     </p>
