@@ -30,7 +30,7 @@
 
       xhr.then(function(response) {        
         console.log(response);
-        $log.info(response.data);
+        $log.info("Salida: "+ response.data);
         vm.paises = response.data;
       });
 

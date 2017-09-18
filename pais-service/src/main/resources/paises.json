@@ -2,28 +2,28 @@
   "paises":
   [
     {
-      "nombre":"Afganistán",
+      "nombre":"Afganist\u00e1n",
       "capital":"Kabul",
-      "moneda":"Afghaní",
+      "moneda":"Afghan\u00ed",
       "idioma":"Pashtu y Darit"
     },
     {
       "nombre":"Albania",
       "capital":"Tirana",
       "moneda":"Nuevo Lek",
-      "idioma":"Albanés"
+      "idioma":"Alban\u00e9s"
     },
     {
       "nombre":"Alemania",
       "capital":"Berlin",
       "moneda":"Marco A.",
-      "idioma":"Alemán"
+      "idioma":"Alem\u00e1n"
     },
     {
       "nombre":"Andorra",
       "capital":"Andorra la Vella",
       "moneda":"Peseta y Franco",
-      "idioma":"Catalán"
+      "idioma":"Catal\u00e1n"
     },
     {
       "nombre":"Angola",
@@ -47,36 +47,36 @@
       "nombre":"Argentina",
       "capital":"Buenos Aires",
       "moneda":"Peso",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Armenia",
-      "capital":"Yerewán",
-      "moneda":"Dólar",
+      "capital":"Yerew\u00e1n",
+      "moneda":"D\u00f3lar",
       "idioma":"Armenio"
     },
     {
       "nombre":"Australia",
       "capital":"Camberra",
-      "moneda":"Dólar A.",
+      "moneda":"D\u00f3lar A.",
       "idioma":"Ingles"
     },
     {
       "nombre":"Austria",
       "capital":"Viena",
       "moneda":"Schilling",
-      "idioma":"Alemán"
+      "idioma":"Alem\u00e1n"
     },
     {
       "nombre":"Azerbaiyan",
-      "capital":"Bakú",
+      "capital":"Bak\u00fa",
       "moneda":"Manat",
       "idioma":"Azerbaiyano"
     },
     {
       "nombre":"Bahamas",
       "capital":"Nassau",
-      "moneda":"Dólar Bahameño",
+      "moneda":"D\u00f3lar Bahame\u00f1o",
       "idioma":"Ingles"
     },
     {
@@ -89,40 +89,40 @@
       "nombre":"Bangladesh",
       "capital":"Dacca",
       "moneda":"Taka",
-      "idioma":"Bengalí"
+      "idioma":"Bengal\u00ed"
     },
     {
-      "nombre":"Bárbados",
+      "nombre":"B\u00e1rbados",
       "capital":"Ridgetow",
-      "moneda":"Dólar de Bar.",
+      "moneda":"D\u00f3lar de Bar.",
       "idioma":"Ingles"
     },
     {
-      "nombre":"Belarús",
+      "nombre":"Belar\u00fas",
       "capital":"Minsk",
       "moneda":"Rubel",
       "idioma":"Belaruso"
     },
     {
-      "nombre":"Bélgica",
+      "nombre":"B\u00e9lgica",
       "capital":"Bruselas",
       "moneda":"Franco-Belga",
-      "idioma":"Nerlandéz"
+      "idioma":"Nerland\u00e9z"
     },
     {
       "nombre":"Belice",
       "capital":"Belmopan",
-      "moneda":"Dólar Bélgica",
+      "moneda":"D\u00f3lar B\u00e9lgica",
       "idioma":"Ingles"
     },
     {
       "nombre":"Benin",
       "capital":"Porto Novo",
       "moneda":"Franco",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
-      "nombre":"Bhután",
+      "nombre":"Bhut\u00e1n",
       "capital":"Timbu",
       "moneda":"Ngultrum",
       "idioma":"Dzongkha"
@@ -131,7 +131,7 @@
       "nombre":"Bolivia",
       "capital":"La Paz",
       "moneda":"Boliviano",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Bosnia H.",
@@ -148,20 +148,20 @@
     {
       "nombre":"Brunei",
       "capital":"Bandar",
-      "moneda":"Dólar",
+      "moneda":"D\u00f3lar",
       "idioma":"Malayo"
     },
     {
       "nombre":"Bulgaria",
       "capital":"Sofia",
       "moneda":"Lev",
-      "idioma":"Búlgaro"
+      "idioma":"B\u00falgaro"
     },
     {
       "nombre":"Burkina Faso",
       "capital":"Uagadugu",
       "moneda":"Franco",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Burundi",
@@ -173,7 +173,7 @@
       "nombre":"Cabo Verde",
       "capital":"Prai",
       "moneda":"Escudo C.V.",
-      "idioma":"Portugués"
+      "idioma":"Portugu\u00e9s"
     },
     {
       "nombre":"Camboya",
@@ -182,34 +182,34 @@
       "idioma":"Khmar"
     },
     {
-      "nombre":"Camerún",
+      "nombre":"Camer\u00fan",
       "capital":"Yaundee",
       "moneda":"Franco (C.F.A.)",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
-      "nombre":"Canadá",
+      "nombre":"Canad\u00e1",
       "capital":"Otawa",
-      "moneda":"Dólar",
+      "moneda":"D\u00f3lar",
       "idioma":"Ingles"
     },
     {
       "nombre":"Colombia",
       "capital":"Bogota",
       "moneda":"Peso",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Comoras",
       "capital":"Mnroni",
       "moneda":"Franco",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Congo",
       "capital":"Brazzaville",
       "moneda":"Franco(C.F.A.)",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Corea del Norte",
@@ -219,21 +219,21 @@
     },
     {
       "nombre":"Corea del Sur",
-      "capital":"Séul",
+      "capital":"S\u00e9ul",
       "moneda":"Won Corea Norte",
       "idioma":"Coreano"
     },
     {
       "nombre":"Costa Rica",
-      "capital":"San José",
-      "moneda":"Colón",
-      "idioma":"Español"
+      "capital":"San Jos\u00e9",
+      "moneda":"Col\u00f3n",
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Cote Divoire",
       "capital":"Yamoussoukro",
       "moneda":"Franco",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Croacia",
@@ -245,19 +245,19 @@
       "nombre":"Cuba",
       "capital":"La Habana",
       "moneda":"Peso Cubano",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Chad",
-      "capital":"N´ Djamena",
+      "capital":"N' Djamena",
       "moneda":"Franco C.F.A.",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Chile",
       "capital":"Santiago",
       "moneda":"Peso",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"China R. Pop.",
@@ -268,7 +268,7 @@
     {
       "nombre":"China Taiwan",
       "capital":"Taipei",
-      "moneda":"Nuevo Dólar T.",
+      "moneda":"Nuevo D\u00f3lar T.",
       "idioma":"Chino"
     },
     {
@@ -287,19 +287,19 @@
       "nombre":"Djibouti",
       "capital":"Djibouti",
       "moneda":"Franco",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Dominica",
       "capital":"Rousseau",
-      "moneda":"Dólar",
+      "moneda":"D\u00f3lar",
       "idioma":"Ingles"
     },
     {
       "nombre":"Ecuador",
       "capital":"Quito",
       "moneda":"Sucre",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Egipto",
@@ -322,19 +322,19 @@
     {
       "nombre":"Eslovenia",
       "capital":"Liubliana",
-      "moneda":"Dólar",
+      "moneda":"D\u00f3lar",
       "idioma":"Esloveno"
     },
     {
-      "nombre":"España",
+      "nombre":"Espa\u00f1a",
       "capital":"Madrid",
       "moneda":"Euro",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"EE.UU",
-      "capital":"Washingtón",
-      "moneda":"Dólar",
+      "capital":"Washingt\u00f3n",
+      "moneda":"D\u00f3lar",
       "idioma":"Ingles"
     },
     {
@@ -359,19 +359,19 @@
       "nombre":"Finlandia",
       "capital":"Heinsinki",
       "moneda":"Marco F.",
-      "idioma":"Finés"
+      "idioma":"Fin\u00e9s"
     },
     {
       "nombre":"Francia",
-      "capital":"París",
+      "capital":"Par\u00eds",
       "moneda":"Franco",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Gabon",
       "capital":"Libreville",
       "moneda":"Franco",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Gambia",
@@ -382,7 +382,7 @@
     {
       "nombre":"Georgia",
       "capital":"Tebelice",
-      "moneda":"Kupón",
+      "moneda":"Kup\u00f3n",
       "idioma":"Gerogiano"
     },
     {
@@ -394,7 +394,7 @@
     {
       "nombre":"Granada",
       "capital":"Georges",
-      "moneda":"Dólar",
+      "moneda":"D\u00f3lar",
       "idioma":"Ingres"
     },
     {
@@ -407,48 +407,48 @@
       "nombre":"Guatemala",
       "capital":"Guatemala",
       "moneda":"Quetzal",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Guinea",
       "capital":"Conakry",
       "moneda":"Franco G.",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Guinea Bissau",
       "capital":"Bissau",
       "moneda":"Peso",
-      "idioma":"Portugués"
+      "idioma":"Portugu\u00e9s"
     },
     {
       "nombre":"Guinea Ecuat. l",
       "capital":"Malabo",
       "moneda":"Franco C.F.A.",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Guyana",
       "capital":"Georgeetown",
-      "moneda":"Dólar G.",
+      "moneda":"D\u00f3lar G.",
       "idioma":"Ingles"
     },
     {
       "nombre":"Haiti",
       "capital":"Puerto principe",
       "moneda":"Gourde",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Honduras",
       "capital":"Tegusigalpa",
       "moneda":"Lempira",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Hungria",
       "capital":"Budapest",
-      "moneda":"Florín",
+      "moneda":"Flor\u00edn",
       "idioma":"Hungaro"
     },
     {
@@ -471,7 +471,7 @@
     },
     {
       "nombre":"Iran",
-      "capital":"Teherán",
+      "capital":"Teher\u00e1n",
       "moneda":"Rial",
       "idioma":"Farci"
     },
@@ -479,35 +479,35 @@
       "nombre":"Irlanda",
       "capital":"Dublin",
       "moneda":"Libra J.",
-      "idioma":"Irlandés"
+      "idioma":"Irland\u00e9s"
     },
     {
       "nombre":"Islandia",
       "capital":"Reykiavick",
       "moneda":"Corona",
-      "idioma":"Islandés"
+      "idioma":"Island\u00e9s"
     },
     {
       "nombre":"Islas Marshal",
       "capital":"Majuro",
-      "moneda":"Dólar",
-      "idioma":"Inglés"
+      "moneda":"D\u00f3lar",
+      "idioma":"Ingl\u00e9s"
     },
     {
-      "nombre":"Islas Salomón",
+      "nombre":"Islas Salom\u00f3n",
       "capital":"Honiara",
-      "moneda":"Dólar",
-      "idioma":"Inglés"
+      "moneda":"D\u00f3lar",
+      "idioma":"Ingl\u00e9s"
     },
     {
       "nombre":"Islas Palau",
       "capital":"Koror",
-      "moneda":"Dólar U.S.A.",
-      "idioma":"Inglés"
+      "moneda":"D\u00f3lar U.S.A.",
+      "idioma":"Ingl\u00e9s"
     },
     {
       "nombre":"Israel",
-      "capital":"Jerusalén",
+      "capital":"Jerusal\u00e9n",
       "moneda":"Nuevo Siclo",
       "idioma":"Hebreo"
     },
@@ -526,11 +526,11 @@
     {
       "nombre":"Jamaica",
       "capital":"King",
-      "moneda":"Dólar Jamaica",
-      "idioma":"Inglés"
+      "moneda":"D\u00f3lar Jamaica",
+      "idioma":"Ingl\u00e9s"
     },
     {
-      "nombre":"Japón",
+      "nombre":"Jap\u00f3n",
       "capital":"Tokio",
       "moneda":"Yen",
       "idioma":"Japones"
@@ -556,7 +556,7 @@
     {
       "nombre":"Kiribati",
       "capital":"Bairiki",
-      "moneda":"Dólar",
+      "moneda":"D\u00f3lar",
       "idioma":"Ingles"
     },
     {
@@ -573,7 +573,7 @@
     },
     {
       "nombre":"Lesotho",
-      "capital":"Macerú",
+      "capital":"Macer\u00fa",
       "moneda":"Sesoto",
       "idioma":"Ingles"
     },
@@ -581,10 +581,10 @@
       "nombre":"Letonia",
       "capital":"Riga",
       "moneda":"Lat",
-      "idioma":"Letón"
+      "idioma":"Let\u00f3n"
     },
     {
-      "nombre":"Líbano",
+      "nombre":"L\u00edbano",
       "capital":"Beirut",
       "moneda":"Libra Libanesa",
       "idioma":"Arabe"
@@ -592,14 +592,14 @@
     {
       "nombre":"Liberia",
       "capital":"Monrovia",
-      "moneda":"Dólar L.",
+      "moneda":"D\u00f3lar L.",
       "idioma":"Ingles"
     },
     {
       "nombre":"Liechtenstein",
       "capital":"Vaduz",
       "moneda":"Franco S.",
-      "idioma":"Alemán"
+      "idioma":"Alem\u00e1n"
     },
     {
       "nombre":"Lituania",
@@ -611,7 +611,7 @@
       "nombre":"Luxemburgo",
       "capital":"Luxemburgo",
       "moneda":"Franco L",
-      "idioma":"Letzeburgués"
+      "idioma":"Letzeburgu\u00e9s"
     },
     {
       "nombre":"Macedonia",
@@ -623,7 +623,7 @@
       "nombre":"Madagascar",
       "capital":"Antananarivo",
       "moneda":"Franco Malgache",
-      "idioma":"Malgaché"
+      "idioma":"Malgach\u00e9"
     },
     {
       "nombre":"Malasia",
@@ -644,16 +644,16 @@
       "idioma":"Maldivo"
     },
     {
-      "nombre":"Malí",
+      "nombre":"Mal\u00ed",
       "capital":"Bamako",
       "moneda":"Franco M.",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Malta",
       "capital":"La Valetta",
       "moneda":"Lira M.",
-      "idioma":"Maltés"
+      "idioma":"Malt\u00e9s"
     },
     {
       "nombre":"Marruecos",
@@ -671,18 +671,18 @@
       "nombre":"Mauricio",
       "capital":"Port Louis",
       "moneda":"Rupia",
-      "idioma":"Inglés"
+      "idioma":"Ingl\u00e9s"
     },
     {
-      "nombre":"México",
-      "capital":"México D. F.",
+      "nombre":"M\u00e9xico",
+      "capital":"M\u00e9xico D. F.",
       "moneda":"Nuevo Peso",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Micronesia",
       "capital":"Palekir",
-      "moneda":"Dólar",
+      "moneda":"D\u00f3lar",
       "idioma":"Ingles"
     },
     {
@@ -694,8 +694,8 @@
     {
       "nombre":"Monaco",
       "capital":"Monaco-Ville",
-      "moneda":"Franco Francés",
-      "idioma":"Francés"
+      "moneda":"Franco Franc\u00e9s",
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Mongolia",
@@ -707,7 +707,7 @@
       "nombre":"Mozambique",
       "capital":"Maputo",
       "moneda":"Metical",
-      "idioma":"Portugués"
+      "idioma":"Portugu\u00e9s"
     },
     {
       "nombre":"Myanmar(Bir)",
@@ -718,38 +718,38 @@
     {
       "nombre":"Namibia",
       "capital":"Windhoek",
-      "moneda":"Dólar",
+      "moneda":"D\u00f3lar",
       "idioma":"Ingles"
     },
     {
       "nombre":"Nauro",
       "capital":"Yaren",
-      "moneda":"Dólar",
+      "moneda":"D\u00f3lar",
       "idioma":"Naurano"
     },
     {
       "nombre":"Nepal",
-      "capital":"Katmandú",
+      "capital":"Katmand\u00fa",
       "moneda":"Rupia N.",
-      "idioma":"Nepalés"
+      "idioma":"Nepal\u00e9s"
     },
     {
       "nombre":"Nicaragua",
       "capital":"Managua",
-      "moneda":"Córdoba",
-      "idioma":"Español"
+      "moneda":"C\u00f3rdoba",
+      "idioma":"Espa\u00f1ol"
     },
     {
-      "nombre":"Níger",
+      "nombre":"N\u00edger",
       "capital":"Niamey",
       "moneda":"Franco",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Nigeria",
       "capital":"Abuja",
       "moneda":"Naira",
-      "idioma":"Inglés"
+      "idioma":"Ingl\u00e9s"
     },
     {
       "nombre":"Nuruega",
@@ -760,11 +760,11 @@
     {
       "nombre":"Nueva Zelandia",
       "capital":"Wellington",
-      "moneda":"Dólar",
+      "moneda":"D\u00f3lar",
       "idioma":"Ingles"
     },
     {
-      "nombre":"Omán",
+      "nombre":"Om\u00e1n",
       "capital":"Mascate",
       "moneda":"Rial Omani",
       "idioma":"Arabe"
@@ -776,34 +776,34 @@
       "idioma":"Holandes"
     },
     {
-      "nombre":"Pakistán",
+      "nombre":"Pakist\u00e1n",
       "capital":"Islamabad",
       "moneda":"Rupia",
-      "idioma":"Urdú"
+      "idioma":"Urd\u00fa"
     },
     {
-      "nombre":"Panamá",
-      "capital":"Panamá",
-      "moneda":"Balbóa",
-      "idioma":"Español"
+      "nombre":"Panam\u00e1",
+      "capital":"Panam\u00e1",
+      "moneda":"Balb\u00f3a",
+      "idioma":"Espa\u00f1ol"
     },
     {
-      "nombre":"Papúa N.G.",
+      "nombre":"Pap\u00faa N.G.",
       "capital":"Port Moresvy",
       "moneda":"Kina",
-      "idioma":"Inglés"
+      "idioma":"Ingl\u00e9s"
     },
     {
       "nombre":"Paraguay",
-      "capital":"Asunción",
-      "moneda":"Guaraní",
-      "idioma":"Español"
+      "capital":"Asunci\u00f3n",
+      "moneda":"Guaran\u00ed",
+      "idioma":"Espa\u00f1ol"
     },
     {
-      "nombre":"Perú",
+      "nombre":"Per\u00fa",
       "capital":"Lima",
       "moneda":"Nuevo Saol",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Polonia",
@@ -820,8 +820,8 @@
     {
       "nombre":"Puerto Rico",
       "capital":"San Juan",
-      "moneda":"Dólar U.S.A.",
-      "idioma":"Inglés-Español"
+      "moneda":"D\u00f3lar U.S.A.",
+      "idioma":"Ingl\u00e9s-Espa\u00f1ol"
     },
     {
       "nombre":"Reino Unido",
@@ -833,7 +833,7 @@
       "nombre":"R.Centro Africano",
       "capital":"Bangui",
       "moneda":"Franco C.F.A.",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Republica Checa",
@@ -845,7 +845,7 @@
       "nombre":"Republica Dominicana",
       "capital":"Santo Domingo",
       "moneda":"Peso D.",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Rumania",
@@ -855,9 +855,9 @@
     },
     {
       "nombre":"Rusia",
-      "capital":"Moscú",
+      "capital":"Mosc\u00fa",
       "moneda":"Rublo",
-      "idioma":"Rusó"
+      "idioma":"Rus\u00f3"
     },
     {
       "nombre":"Qatar",
@@ -869,13 +869,13 @@
       "nombre":"Ruanda",
       "capital":"Kigali",
       "moneda":"Franco R.",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Salvador, El.",
       "capital":"San Salvador",
-      "moneda":"Colón",
-      "idioma":"Español"
+      "moneda":"Col\u00f3n",
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Samoa Occ.",
@@ -886,8 +886,8 @@
     {
       "nombre":"San Cristobal y N.",
       "capital":"Basseterre",
-      "moneda":"Dólar",
-      "idioma":"Inglés"
+      "moneda":"D\u00f3lar",
+      "idioma":"Ingl\u00e9s"
     },
     {
       "nombre":"San Marino",
@@ -898,26 +898,26 @@
     {
       "nombre":"San Vicente y G.",
       "capital":"Kingstwn",
-      "moneda":"Dólar",
-      "idioma":"Inglés"
+      "moneda":"D\u00f3lar",
+      "idioma":"Ingl\u00e9s"
     },
     {
       "nombre":"Santa Lucia",
       "capital":"Castries",
-      "moneda":"Dólar",
+      "moneda":"D\u00f3lar",
       "idioma":"Ingles"
     },
     {
       "nombre":"Santo Tome",
-      "capital":"Santo Tomé",
+      "capital":"Santo Tom\u00e9",
       "moneda":"Dogra",
-      "idioma":"Portugués"
+      "idioma":"Portugu\u00e9s"
     },
     {
       "nombre":"Senegal",
       "capital":"Dakar",
       "moneda":"Franco C.F.A.",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Seychelles",
@@ -929,12 +929,12 @@
       "nombre":"Sierra Lorena",
       "capital":"Freetown",
       "moneda":"Leone",
-      "idioma":"Inglés"
+      "idioma":"Ingl\u00e9s"
     },
     {
       "nombre":"Singapur",
       "capital":"Singapur",
-      "moneda":"Dólar S.",
+      "moneda":"D\u00f3lar S.",
       "idioma":"Malayo"
     },
     {
@@ -947,24 +947,24 @@
       "nombre":"Somalia",
       "capital":"Mogadiscio",
       "moneda":"Chelin",
-      "idioma":"Somalí"
+      "idioma":"Somal\u00ed"
     },
     {
       "nombre":"Sri. Lanka",
       "capital":"Colombo",
       "moneda":"Rupia",
-      "idioma":"Singalés"
+      "idioma":"Singal\u00e9s"
     },
     {
       "nombre":"Sudafrica",
       "capital":"Bloem Fontein",
       "moneda":"Rand",
-      "idioma":"Inglés"
+      "idioma":"Ingl\u00e9s"
     },
     {
-      "nombre":"Sudán",
-      "capital":"Jartúm",
-      "moneda":"Libra Sudán",
+      "nombre":"Sud\u00e1n",
+      "capital":"Jart\u00fam",
+      "moneda":"Libra Sud\u00e1n",
       "idioma":"Arabe"
     },
     {
@@ -977,11 +977,11 @@
       "nombre":"Suiza",
       "capital":"Berna",
       "moneda":"Franco S.",
-      "idioma":"Alemán"
+      "idioma":"Alem\u00e1n"
     },
     {
       "nombre":"Surinam",
-      "capital":"Paramaribó",
+      "capital":"Paramarib\u00f3",
       "moneda":"Guilder S.",
       "idioma":"Hlandes"
     },
@@ -989,7 +989,7 @@
       "nombre":"Swazilandia",
       "capital":"Mbabane",
       "moneda":"Lilan Gueni",
-      "idioma":"Inglés"
+      "idioma":"Ingl\u00e9s"
     },
     {
       "nombre":"Tailandia",
@@ -1000,7 +1000,7 @@
     {
       "nombre":"Tanzania",
       "capital":"Dodona-Dares",
-      "moneda":"Chelín T.",
+      "moneda":"Chel\u00edn T.",
       "idioma":"Swahile"
     },
     {
@@ -1011,30 +1011,30 @@
     },
     {
       "nombre":"Tgo",
-      "capital":"Lomé",
+      "capital":"Lom\u00e9",
       "moneda":"Franco C.F.A.",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Tonga",
       "capital":"Nuku-Alofa",
-      "moneda":"Pa´Anga",
+      "moneda":"Pa'Anga",
       "idioma":"Tongano"
     },
     {
       "nombre":"Trinidad y T.",
-      "capital":"Puerto España",
-      "moneda":"Dólar T.",
-      "idioma":"Inglés"
+      "capital":"Puerto Espa\u00f1a",
+      "moneda":"D\u00f3lar T.",
+      "idioma":"Ingl\u00e9s"
     },
     {
-      "nombre":"Túnez",
-      "capital":"Túnez",
+      "nombre":"T\u00fanez",
+      "capital":"T\u00fanez",
       "moneda":"Dinar T.",
       "idioma":"Arabe"
     },
     {
-      "nombre":"Turquía",
+      "nombre":"Turqu\u00eda",
       "capital":"Ankara",
       "moneda":"Lira Turquia",
       "idioma":"Turco"
@@ -1046,10 +1046,10 @@
       "idioma":"Turcomano"
     },
     {
-      "nombre":"Tubalú",
+      "nombre":"Tubal\u00fa",
       "capital":"Funga fale",
-      "moneda":"Dólar",
-      "idioma":"Inglés"
+      "moneda":"D\u00f3lar",
+      "idioma":"Ingl\u00e9s"
     },
     {
       "nombre":"Ucrania",
@@ -1060,14 +1060,14 @@
     {
       "nombre":"Uganda",
       "capital":"Kampala",
-      "moneda":"Chalín Ugandés",
+      "moneda":"Chal\u00edn Ugand\u00e9s",
       "idioma":"Ingles"
     },
     {
       "nombre":"Uruguay",
       "capital":"Montevideo",
       "moneda":"Peso Uruguayo",
-      "idioma":"Español"
+      "idioma":"Espa\u00f1ol"
     },
     {
       "nombre":"Uzbekistan",
@@ -1078,7 +1078,7 @@
     {
       "nombre":"Vanuato",
       "capital":"Puerto Villa",
-      "moneda":"Batú",
+      "moneda":"Bat\u00fa",
       "idioma":"Bislama"
     },
     {
@@ -1090,7 +1090,7 @@
     {
       "nombre":"Venezuela",
       "capital":"Caracas",
-      "moneda":"Bolívar",
+      "moneda":"Bol\u00edvar",
       "idioma":"Venezuela"
     },
     {
@@ -1115,19 +1115,19 @@
       "nombre":"Zare",
       "capital":"Kinshasa",
       "moneda":"Zaire",
-      "idioma":"Francés"
+      "idioma":"Franc\u00e9s"
     },
     {
       "nombre":"Zambia",
       "capital":"Lusaka",
       "moneda":"Kwacha",
-      "idioma":"Inglés"
+      "idioma":"Ingl\u00e9s"
     },
     {
       "nombre":"Zimbowe",
       "capital":"Harare",
-      "moneda":"Dólar Zimbawe",
-      "idioma":"Inglés"
+      "moneda":"D\u00f3lar Zimbawe",
+      "idioma":"Ingl\u00e9s"
     }
   ]
 }

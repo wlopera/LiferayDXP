@@ -2,7 +2,11 @@ package com.pais.util;
 
 import com.pais.model.Pais;
 
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,20 +17,40 @@ import org.json.simple.parser.JSONParser;
 public class JSONRead {
 	public static void main(String[] args) {
 
-		List<Pais> paises = getDataPaises();
+		JSONRead jsonRead = new JSONRead();
+		
+		List<Pais> paises = jsonRead.getDataPaises();
 		for(Pais pais:paises) {
 			System.out.println(pais);
 		}
 	}
 	
-	public static List<Pais> getDataPaises() {
+	public List<Pais> getDataPaises() {
 
 		JSONParser parser = new JSONParser();
+		
 		List<Pais> paises = new ArrayList<Pais>();
 		try {
+			
+			 InputStream is = JSONRead.class.getResourceAsStream("/paises.json");
+		        BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+	            StringBuffer sb = new StringBuffer();
+	            String line;
+		        while ((line = reader.readLine()) != null) {
+		            sb.append(line);
+		        }
+		        
 
-			Object obj = parser.parse(new FileReader("src/main/resources/paises.json"));
-
+		    Object obj = parser.parse(sb.toString());
+			
+			//Object obj = parser.parse(new FileReader(getClass().getClassLoader().getResource("\\paises.json").getFile()));
+			
+			//ClassLoader classLoader = getClass().getClassLoader();
+			//File file = new File(JSONRead.class.getResource("paises.json").getFile());
+			//Object obj = parser.parse(new FileReader(file));
+			
+			
+			
 			JSONObject jsonObject = (JSONObject) obj;
 			JSONArray tags = (JSONArray) jsonObject.get("paises");
 			Pais pais;
