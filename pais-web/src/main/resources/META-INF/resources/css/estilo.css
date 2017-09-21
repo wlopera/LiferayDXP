@@ -1,0 +1,8 @@
+.tabla {
+    background-color: blue;
+    height: 100px;
+    overflow: auto;
+    width:800px;
+    background:cyan;
+    overflow-y: scroll;
+}

@@ -50,7 +50,7 @@ public class PaisController extends Application {
     @Produces(MediaType.APPLICATION_JSON)
     public String getPaises() {
     	List<Pais> paises = paisApi.getPaises();
-    	System.out.println(paises);
+    	//System.out.println("..................Paises: " + paises);
         return new JsonSerializer().serialize(paises);
     }
 

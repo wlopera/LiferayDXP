@@ -7,14 +7,14 @@
   	
 	</div>
 		
-	<div class="container">
 	  <p style="padding-left: 1cm">
 		  <button type="button" class="btn btn-success btn-small" ng-click="ctrl.getPaises()">
 	    	<span class="glyphicon glyphicon-search"></span> Países 
 	    </button>
     </p>
+    <div class="container tabla" >
 	  <hr>            
-	  <table class="table table-striped" style="width:600px">
+	  <table class="table table-striped">
 	    <thead>
 	      <tr>
 	       <th align="center"> NOMBRE</th>
