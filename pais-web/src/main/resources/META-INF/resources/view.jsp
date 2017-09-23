@@ -7,6 +7,11 @@
 			ng-click="ctrl.getPaises()">
 			<span class="glyphicon glyphicon-search"></span> Países
 		</button>
+		<button type="button" class="btn btn-success btn-small"
+			ng-click="ctrl.getPaisByName('Argentina')">
+			<span class="glyphicon glyphicon-search"></span> Pais
+		</button>
+
 	</p>
 	<div class="container">
 		<hr>
@@ -30,5 +35,8 @@
 				</tbody>
 			</table>
 		</div>
+	</div>
+	<div>
+		{{ctrl.pais | json}}
 	</div>
 </div>

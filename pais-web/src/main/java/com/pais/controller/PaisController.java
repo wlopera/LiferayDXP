@@ -8,7 +8,9 @@ import java.util.List;
 import java.util.Set;
 
 import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Application;
@@ -22,6 +24,7 @@ import jodd.json.JsonSerializer;
 @Component(immediate = true, service = Application.class)
 @ApplicationPath("/pais")
 public class PaisController extends Application {
+	private List<Pais> paises;
 
     // ------------------------
     // Rest Application Config
@@ -41,7 +44,7 @@ public class PaisController extends Application {
      */
     private PaisApi paisApi; 
 
-    // ------------------------
+    // ------------------------´
     // Public Methods
     // ------------------------
 
@@ -49,11 +52,30 @@ public class PaisController extends Application {
     @Path("getPaises/")
     @Produces(MediaType.APPLICATION_JSON)
     public String getPaises() {
-    	List<Pais> paises = paisApi.getPaises();
-    	//System.out.println("..................Paises: " + paises);
+    	if (paises == null) {
+    		paises = paisApi.getPaises();
+    	}
+    	System.out.println("..................Paises: " + paises);
         return new JsonSerializer().serialize(paises);
     }
 
+    // ------------------------
+    // Public Methods
+    // ------------------------
+    @POST
+    @Path("getPaisByName/")
+    @Produces(MediaType.APPLICATION_JSON) 
+    @Consumes(MediaType.APPLICATION_JSON)
+    public String getPaisByName(String name) {
+    	getPaises(); 
+    	for (Pais pais: paises){
+    		if(pais.getNombre().startsWith(name)) {
+    			return new JsonSerializer().serialize(pais);
+    		}
+    	}
+    	return null;
+    }
+    
     // ------------------------
     // OSGI References
     // ------------------------
