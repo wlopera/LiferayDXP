@@ -12,14 +12,20 @@
       return serviceInvoker.invoke("GET", WS_PATH + "/getPaises");
     }
 
-    // Consultar paispor nombre
-    function getPaisByName(name) {
-        return serviceInvoker.invoke("POST", WS_PATH + "/getPaisByName", name);
-      }
-    
+    // Agregar Pais
+    function agregarPais(pais) {
+        return serviceInvoker.invoke("POST", WS_PATH + "/agregarPais", pais);
+    }
+
+    // Modificar Pais
+    function modificarPais(pais) {
+        return serviceInvoker.invoke("POST", WS_PATH + "/modificarPais", pais);
+    }
+
     return {
     	getPaises: getPaises,
-    	getPaisByName: getPaisByName
+    	agregarPais: agregarPais,
+    	modificarPais: modificarPais
     };
 
   };

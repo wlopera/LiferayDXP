@@ -52,7 +52,7 @@ public class PaisController extends Application {
     @Path("getPaises/")
     @Produces(MediaType.APPLICATION_JSON)
     public String getPaises() {
-    	if (paises == null) {
+    	if (paises == null || paises.size() == 0) {
     		paises = paisApi.getPaises();
     	}
     	System.out.println("..................Paises: " + paises);
@@ -63,16 +63,35 @@ public class PaisController extends Application {
     // Public Methods
     // ------------------------
     @POST
-    @Path("getPaisByName/")
+    @Path("agregarPais/")
     @Produces(MediaType.APPLICATION_JSON) 
     @Consumes(MediaType.APPLICATION_JSON)
-    public String getPaisByName(String name) {
+    public String agregarPais(Pais pais) {
     	getPaises(); 
-    	for (Pais pais: paises){
-    		if(pais.getNombre().startsWith(name)) {
-    			return new JsonSerializer().serialize(pais);
-    		}
-    	}
+    	System.out.println("##=> Pais a crear: " + pais);
+//    	for (Pais pais: paises){
+//    		if(pais.getNombre().startsWith(name)) {
+//    			return new JsonSerializer().serialize(pais);
+//    		}
+//    	}
+    	return null;
+    }
+    
+ // ------------------------
+    // Public Methods
+    // ------------------------
+    @POST
+    @Path("modificarPais/")
+    @Produces(MediaType.APPLICATION_JSON) 
+    @Consumes(MediaType.APPLICATION_JSON)
+    public String modificarPais(Pais pais) {
+    	getPaises(); 
+    	System.out.println("##=> Pais a modificar: " + pais);
+//    	for (Pais pais: paises){
+//    		if(pais.getNombre().startsWith(name)) {
+//    			return new JsonSerializer().serialize(pais);
+//    		}
+//    	}
     	return null;
     }
     

@@ -3,8 +3,6 @@ package com.pais.util;
 import com.pais.model.Pais;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -42,21 +40,14 @@ public class JSONRead {
 		        
 
 		    Object obj = parser.parse(sb.toString());
-			
-			//Object obj = parser.parse(new FileReader(getClass().getClassLoader().getResource("\\paises.json").getFile()));
-			
-			//ClassLoader classLoader = getClass().getClassLoader();
-			//File file = new File(JSONRead.class.getResource("paises.json").getFile());
-			//Object obj = parser.parse(new FileReader(file));
-			
-			
-			
+						
 			JSONObject jsonObject = (JSONObject) obj;
 			JSONArray tags = (JSONArray) jsonObject.get("paises");
 			Pais pais;
 			for (int i=0; i<tags.size(); i++){
 				JSONObject jsonObj = (JSONObject)tags.get(i);
 				pais = new Pais();
+				pais.setId(jsonObj.get("id").toString());
 				pais.setNombre(jsonObj.get("nombre").toString());
 				pais.setCapital(jsonObj.get("capital").toString());
 				pais.setMoneda(jsonObj.get("moneda").toString());

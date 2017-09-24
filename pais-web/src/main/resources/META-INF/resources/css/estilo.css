@@ -1,7 +1,7 @@
 .tabla {
-    height: 200px;
+    height: 250px;
     overflow: auto;
-    width:600px;
+    width:400px;
     overflow-y: scroll;
 }
 
