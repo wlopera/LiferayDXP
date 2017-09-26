@@ -16,36 +16,33 @@ public class JSONRead {
 	public static void main(String[] args) {
 
 		JSONRead jsonRead = new JSONRead();
-		
+
 		List<Pais> paises = jsonRead.getDataPaises();
-		for(Pais pais:paises) {
+		for (Pais pais : paises) {
 			System.out.println(pais);
 		}
 	}
-	
+
 	public List<Pais> getDataPaises() {
 
 		JSONParser parser = new JSONParser();
-		
-		List<Pais> paises = new ArrayList<Pais>();
 		try {
-			
-			 InputStream is = JSONRead.class.getResourceAsStream("/paises.json");
-		        BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-	            StringBuffer sb = new StringBuffer();
-	            String line;
-		        while ((line = reader.readLine()) != null) {
-		            sb.append(line);
-		        }
-		        
+			List<Pais> paises = new ArrayList<Pais>();
+			InputStream is = JSONRead.class.getResourceAsStream("/paises.json");
+			BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+			StringBuffer sb = new StringBuffer();
+			String line;
+			while ((line = reader.readLine()) != null) {
+				sb.append(line);
+			}
 
-		    Object obj = parser.parse(sb.toString());
-						
+			Object obj = parser.parse(sb.toString());
+
 			JSONObject jsonObject = (JSONObject) obj;
 			JSONArray tags = (JSONArray) jsonObject.get("paises");
 			Pais pais;
-			for (int i=0; i<tags.size(); i++){
-				JSONObject jsonObj = (JSONObject)tags.get(i);
+			for (int i = 0; i < tags.size(); i++) {
+				JSONObject jsonObj = (JSONObject) tags.get(i);
 				pais = new Pais();
 				pais.setId(jsonObj.get("id").toString());
 				pais.setNombre(jsonObj.get("nombre").toString());
@@ -53,10 +50,11 @@ public class JSONRead {
 				pais.setMoneda(jsonObj.get("moneda").toString());
 				pais.setIdioma(jsonObj.get("idioma").toString());
 				paises.add(pais);
-			}			
+			}
+			return paises;
 		} catch (Exception e) {
 			System.out.println("getDataPaises - error: " + e.getMessage());
 		}
-		return paises;
+		return null;
 	}
 }

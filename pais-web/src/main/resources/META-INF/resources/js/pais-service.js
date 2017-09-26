@@ -12,6 +12,11 @@
       return serviceInvoker.invoke("GET", WS_PATH + "/getPaises");
     }
 
+    // Reiniciar Paises
+    function reiniciarPaises() {
+      return serviceInvoker.invoke("GET", WS_PATH + "/reiniciarPaises");
+    }
+    
     // Agregar Pais
     function agregarPais(pais) {
         return serviceInvoker.invoke("POST", WS_PATH + "/agregarPais", pais);
@@ -22,10 +27,16 @@
         return serviceInvoker.invoke("POST", WS_PATH + "/modificarPais", pais);
     }
 
+    // Borrar Pais
+    function borrarPais(pais) {
+        return serviceInvoker.invoke("POST", WS_PATH + "/borrarPais", pais);
+    }
     return {
     	getPaises: getPaises,
+    	reiniciarPaises: reiniciarPaises,
     	agregarPais: agregarPais,
-    	modificarPais: modificarPais
+    	modificarPais: modificarPais,
+    	borrarPais: borrarPais
     };
 
   };

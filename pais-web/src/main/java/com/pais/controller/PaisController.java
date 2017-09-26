@@ -4,6 +4,7 @@ import com.pais.api.PaisApi;
 import com.pais.model.Pais;
 
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -58,6 +59,15 @@ public class PaisController extends Application {
     	System.out.println("..................Paises: " + paises);
         return new JsonSerializer().serialize(paises);
     }
+    
+    @GET
+    @Path("reiniciarPaises/")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String reiniciarPaises() {
+    	paises = paisApi.getPaises();
+    	System.out.println("..................Paises: " + paises);
+        return new JsonSerializer().serialize(paises);
+    }
 
     // ------------------------
     // Public Methods
@@ -69,15 +79,13 @@ public class PaisController extends Application {
     public String agregarPais(Pais pais) {
     	getPaises(); 
     	System.out.println("##=> Pais a crear: " + pais);
-//    	for (Pais pais: paises){
-//    		if(pais.getNombre().startsWith(name)) {
-//    			return new JsonSerializer().serialize(pais);
-//    		}
-//    	}
-    	return null;
+    	pais.setId(String.valueOf(paises.size()+1));
+    	paises.add(pais);
+    	System.out.println("##=> Pais a crear: " + paises);
+    	return new JsonSerializer().serialize(paises);
     }
     
- // ------------------------
+    // ------------------------
     // Public Methods
     // ------------------------
     @POST
@@ -86,15 +94,38 @@ public class PaisController extends Application {
     @Consumes(MediaType.APPLICATION_JSON)
     public String modificarPais(Pais pais) {
     	getPaises(); 
-    	System.out.println("##=> Pais a modificar: " + pais);
-//    	for (Pais pais: paises){
-//    		if(pais.getNombre().startsWith(name)) {
-//    			return new JsonSerializer().serialize(pais);
-//    		}
-//    	}
-    	return null;
+    	for (Pais paisTemp:paises) {
+    		if (pais.getId().equals(paisTemp.getId())) {
+    			paisTemp.setNombre(pais.getNombre());
+    			paisTemp.setCapital(pais.getCapital());
+    			paisTemp.setMoneda(pais.getMoneda());
+    			paisTemp.setIdioma(pais.getIdioma());
+    			break;
+    		}
+    	}
+    	return new JsonSerializer().serialize(paises);
     }
-    
+
+ // ------------------------
+    // Public Methods
+    // ------------------------
+    @POST
+    @Path("borrarPais/")
+    @Produces(MediaType.APPLICATION_JSON) 
+    @Consumes(MediaType.APPLICATION_JSON)
+    public String borrarPais(Pais pais) {
+    	getPaises(); 
+    	Iterator<Pais> iterator = paises.iterator();
+    	while (iterator.hasNext()) {
+    	   Pais itPais = iterator.next();
+    	   if (itPais.getId().equals(pais.getId())) {
+    		   iterator.remove();
+    		   break;
+    	   }
+    	}
+    	return new JsonSerializer().serialize(paises);
+    }
+
     // ------------------------
     // OSGI References
     // ------------------------

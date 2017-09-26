@@ -42,31 +42,21 @@
       });
 
     };
-    
-    // Consultar pais por nombre
-    vm.getPaisByName = function(name) {
+        
+    // Reiniciar lista de paises originales 
+    vm.reiniciarPaises = function() {
+    	console.log("##=> Reiniciar Paises: ");
+    	var xhr = paisService.reiniciarPaises();
+    	 
+         xhr.then(function(response) {  
+           vm.paises = response.data;
+           vm.pais= "";
+           console.log(response);
+         });
 
-     var xhr = paisService.getPaisByName(name);
-
-      xhr.then(function(response) {        
-        console.log(response);
-        vm.pais = response.data;
-        vm.pais= "";
-      });
-
-      xhr.catch(function(exception) {
-        $log.error('error getPaises: '+exception);
-      });
-
-      xhr.finally(function() {
-        $log.log("Fin getPais");
-      });
-
-    };
-
-    // Llena los campos de pais seleccionado 
-    vm.seleccionarPais = function(item) {
-    	vm.pais= item;
+         xhr.catch(function(exception) {
+           $log.error('error reiniciando paises: '+exception);
+         });        
     }
     
     // Agregar pais a la lista
@@ -74,39 +64,62 @@
     	console.log("##=> Agregar Pais: ", vm.pais);
     	 var xhr = paisService.agregarPais(vm.pais);
     	 
-         xhr.then(function(response) {        
+         xhr.then(function(response) {
+           vm.paises = response.data;
+           vm.pais= "";
            console.log(response);
          });
 
          xhr.catch(function(exception) {
-           $log.error('error getPaises: '+exception);
-         });
-
-         xhr.finally(function() {
-           $log.log("Fin getPais");
+           $log.error('error agregar pais: '+exception);
          });
     }
     // Modificar pais seleccionado 
     vm.modificarPais = function() {
-    	console.log("##=> Modificar Pais: ", vm.pais);
-    	var xhr = paisService.modificarPais(vm.pais);
-    	 
-         xhr.then(function(response) {        
+    	console.log("##=> Modificar Pais: ", vm.pais);    	
+    	var xhr = paisService.modificarPais(vm.pais);    	 
+         xhr.then(function(response) { 
+           vm.paises = response.data;           
+           vm.pais= "";
            console.log(response);
          });
 
          xhr.catch(function(exception) {
-           $log.error('error getPaises: '+exception);
-         });
-
-         xhr.finally(function() {
-           $log.log("Fin getPais");
+           $log.error('error modificar pais: '+exception);
          });
     }
+   
+    // Borrar pais seleccionado 
+    vm.borrarPais = function() {
+    	console.log("##=> Borrar Pais: ", vm.pais);
+    	var xhr = paisService.borrarPais(vm.pais);
+    	 
+         xhr.then(function(response) {  
+           vm.paises = response.data;
+           vm.pais= "";
+           console.log(response);
+         });
+
+         xhr.catch(function(exception) {
+           $log.error('error borrar pais: '+exception);
+         });        
+    }    
+    
     // limpiar los campos de pais selecionado 
     vm.limpiarCampos = function() {
     	console.log("##=> Limpiar campos Pais");
     	vm.pais= "";
+    }
+    
+    // Llena los campos de pais seleccionado 
+    vm.seleccionarPais = function(item) {
+    	vm.pais = {
+			"id":item.id,
+			"nombre":item.nombre,
+			"capital":item.capital,
+			"moneda":item.moneda,
+			"idioma":item.idioma	
+    	};
     }
     
     /*
@@ -115,7 +128,7 @@
      ==============
     */
     vm.setup = function() {
-
+    	vm.reiniciarPaises();
     };
 
     vm.setup();

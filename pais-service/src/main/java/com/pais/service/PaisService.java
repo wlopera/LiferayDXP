@@ -14,12 +14,8 @@ public class PaisService implements PaisApi {
 	
 	@Override
 	public List<Pais> getPaises() {
-		if (paises == null || paises.size()==0) {
-			paises = new JSONRead().getDataPaises();
-		}
+		paises = new JSONRead().getDataPaises();
 		return paises;
 	}
-
-    
 
 }

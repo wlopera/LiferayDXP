@@ -8,6 +8,7 @@
 				ng-click="ctrl.getPaises()">
 				<span class="glyphicon glyphicon-search"></span> Países
 			</button>
+			<a id="reiniciar" href ng-click="ctrl.reiniciarPaises()">Reiniciar</a>
 		</p>
 		
 			<hr>
@@ -72,6 +73,11 @@
 		<button type="button" class="btn btn-success btn-small"
 			ng-click="ctrl.modificarPais();">
 			<span class="glyphicon glyphicon-search"></span> Modificar
+		</button>
+		
+		<button type="button" class="btn btn-success btn-small"
+			ng-click="ctrl.borrarPais();">
+			<span class="glyphicon glyphicon-search"></span> Borrar
 		</button>
 		
 		<button type="button" class="btn btn-success btn-small"
